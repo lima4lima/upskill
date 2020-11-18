@@ -1,0 +1,25 @@
+h1 {
+    color: green;
+    font-weight: 750;
+}
+
+header p {
+    background-color: red;
+    color: white;
+}
+
+article figure {
+    border: 2px solid;
+    width:600px;
+    padding: 3px;
+}
+
+img {
+    width: 600px;
+}
+article {
+    width: 700px;
+    text-align: justify;
+    text-justify: inter-word;    
+    font-family: sans-serif; 
+}

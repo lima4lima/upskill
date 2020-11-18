@@ -1,0 +1,149 @@
+
+body {background-color: lightgray; font-family: sans-serif;}
+
+.article {
+  background-color: white;
+  border-top: lightskyblue;
+  border: 1px;
+  width: 85%;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+
+.logo {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.hiperLinks {
+  width: 220px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+    word-spacing: 20px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+#search { 
+  width: 157px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  border: none;
+}
+#searchIcon {
+  background-image: url(img/search.png);
+  display: inline-block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 23px;
+  cursor: wait;
+}
+
+
+.article {
+  border: 1px solid lightskyblue;
+}
+
+.contentsPanel {
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding: 5px;
+  font-size: 95%;
+  position: relative;
+  line-height: 1.7em;
+  width: 280px;
+  margin: 0 auto;
+  font-size: 13px;
+  word-spacing: 2px;
+}
+.hidePanel, .showPanel {
+  float: right;
+  margin: 0 5px;
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  color: #0645ad;
+  top: 4px;
+}
+.contentsHeader {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.contentsPanel ul li span {
+  display: inline-block;
+  margin-right: 8px;
+}
+.contentsPanel ul {
+  padding: 0 0 5px 5px;
+}
+.contentsPanel ul li  {
+display: inline-block;
+margin-right: 8px;
+}
+
+.pencilText {
+  color: blue;
+}
+.articleLeft {
+	border: 1px solid #c8ccd1;
+	padding: 1px;
+	float: left;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: left;
+	margin-right: 1.5em;
+  margin-bottom: 1.5em;
+  margin: 1em;
+}
+ 
+.articleLeft img {
+  border: 1px solid grey;
+
+}
+
+.article p {
+  line-height: inherit;
+  margin: 1.7em;
+  font-size: 0.875em;
+  text-align: justify;
+}
+.article h2 {
+  margin:1em;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+.bottomLinks{
+  border: 1px solid lightgray;
+  background-color: rgb(243, 241, 241);
+  font-family: sans-serif;
+  margin: 2em;
+  padding: 5px;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-family: sans-serif;
+  line-height: 13px;
+  }
+.article h1 {
+  margin: 1em;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+#searchInput {
+  background-color: lightgray;
+}
+.articleLeft p {
+  margin: 2px;
+}
+.hiperLinks span{
+word-spacing: 1px;
+}
+.bottomLinks span {
+  word-spacing: 1px;
+}
