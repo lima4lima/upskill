@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+
+function Ex1() {
+    let x = Math.floor(Math.random() * 10 + 1);
+    let y = -1;
+    while ((y != null) && (y < 1 || y > 10)) {
+        y = prompt("Introduza um valor entre 1 e 10");
+    }
+    if (y != null) {
+        if (x == y) {
+            alert("Good Work");
+        }
+        else {
+            alert("Not matched. O valor sorteado foi " + x);
+        }
+    }
+}
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>
