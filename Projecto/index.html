@@ -4,48 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Search Book</title>
+    <script src="JS/script.js"></script>
     <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <section>
-        <div class="container">
-            <div class="user singinBx">
-                <div class="imgBx"><img src="/img/books1.png"></div>
-                <div class="formBx">
-                    <form>
-                        <h2>Sign In</h2>
-                        <input type="text" name="" placeholder="Username">
-                        <input type="password" name="" placeholder="Password">
-                        <input type="submit" name="" value="Login">
-                        <p class="signup">Ainda não está registado? <a href="#" onclick="toggleForm();">Registo</a></p>
-                    </form>
+    <div class="container">
+        <div class="mainContainer">
+
+            <div class="topBar">
+                <div class="logo">
+                    <img src="/img/books1.png">
                 </div>
             </div>
-            <div class="user singupBx">
-                <div class="formBx">
-                    <form>
-                        <h2>Cria uma conta</h2>
-                        <input type="text" name="" placeholder="Username">
-                        <input type="email" name="" placeholder="Endereço de email">
-                        <input type="password" name="" placeholder="Crie uma Password">
-                        <input type="password" name="" placeholder="Confirme a Password">
-                        <input type="submit" name="" value="Sign Up">
-                        <p class="signup">Já está registado? <a href="#" onclick="toggleForm();">Login</a></p>
-                    </form>
+            <div class="main">
+                <div class="navbar">
+                    show
+                    <span onclick="show('Page1');">1</span>,
+                    <span onclick="show('Page2');">2</span>,
+                    <span onclick="show('Page3');">3</span>.
                 </div>
-                <div class="imgBx"><img src="/img/books2.png"></div>
+                <div id="Page1" class="page">
+                    KAPPAROSS
+                </div>
+                <div id="Page2" class="page">
+                    OMEGALUL
+                </div>
+                <div id="Page3" class="page">
+                    PEPELAUGH
+                </div>
             </div>
         </div>
-    </section>
-    <script type="text/javascript">
-        function toggleForm() {
-            var container = document.querySelector('.container');
-            container.classList.toggle('active')
-        }
-    </script>
-
+    </div>
 </body>
 
 </html>
